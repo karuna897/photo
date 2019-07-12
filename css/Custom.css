@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic);
+
+
+
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+}
+.left-link i{
+    color: #000 !important;
+}
+.sub-page-body {
+    background-color: #f6f6f6;
+}
+.sub-page-container-body {
+    background-color: #fff;
+}
+.sub-page-container-images1 div img {
+    margin-top: 15px;
+    width: 100%;
+    height: 700px;
+}
+.sub-page-container-images {
+    margin-top: 15px;
+}
+.sub-page-headings {
+    text-align: center;
+    margin-top: 20px;
+}
+.sub-page-container-images img {
+    width: 100%;
+    height: 720px;
+}
+.sub-page-two-images1 {
+    padding-right: 8px;
+}
+.sub-page-container-images-vertical img {
+    width: 100%;
+    height: 800px;
+}
+.sub-page-two-images2 {
+    padding-left: 8px;
+}
+.sub-page-container-images-vertical {
+    margin-top: 15px;
+}
+.sub-page-headings h2, .sub-page-headings h5{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+}
+.sub-page-headings div p {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400 !important;
+}
+.sub-page-headings h6 {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+}
+.spaceDiv {
+    padding: 50px;
+}
+.main_heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif !important;
+}
+.main_heading h2{
+    font-family: 'Playfair Display', serif !important;
+}
+
+.description {
+    color: #656565;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding: 0px 11%;
+    position: relative;
+    font-family: 'Playfair Display', serif !important;
+}
+.description:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 2%;
+    color: #ddd;
+    font-size: 36px;
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-item {
+    float: left;
+}
+.owl-carousel .owl-item {
+    float: left;
+}
+.description:after {
+    content: "\f10e";
+    font-family: FontAwesome;
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 2%;
+    color: #ddd;
+    font-size: 36px;
+}
+.testimonial-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.pic {
+    width: 85px;
+    height: 100px;
+    margin: 0 auto;
+}
+.pic img {
+    width: 100%;
+    height: 85px;
+    border-radius: 50%;
+}
+.testimonial{
+    text-align: center;
+}
+#pricing {
+     /* background: #fff !important; */
+     background-image: url("../img/backgrounds/facts-bg.jpg");
+     background-attachment: fixed;
+}
+.ourServices-title{
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif !important;
+    color: #fff;
+}
+.pricing-table-x div h3{
+    color: #F60;
+    font-family: 'Playfair Display', serif !important;
+}
+.about-image {
+    text-align: center;
+    margin-top: 15px;
+}
+.about-image img {
+    border-radius: 50%;
+}
+.about-image h4{
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif !important;
+}
+.contact-header-text {
+    text-align: center;
+  
+}
+.contact-header-text h2{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: bold;
+}
+.contact-title-text h2{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+}
+.contact-title-text p{
+    font-family: 'Playfair Display', serif !important;
+}
+
+@media screen and (max-width: 900px) and (min-width: 200px){
+.sub-page-container-images1 img,.sub-page-container-images img {
+    width: 100%;
+    height: auto !important;
+}
+.sub-page-container-images, .sub-page-container-images1 {
+    padding: 0px 0px !important;
+}
+.sub-page-container-images-vertical {
+    margin-top: 0px !important;
+}
+.sub-page-two-images1 {
+    padding-right: 0px !important;
+    padding-left: 0px;
+    padding: 0px 0px;
+}
+.sub-page-container-images-vertical img {
+    width: 100%;
+    height: auto !important;
+    margin-top: 15px !important;
+}
+.sub-page-two-images2 {
+    padding-left: 0px !important;
+    padding-right: 0px;
+}
+.sub-page-container-images div, .sub-page-container-images1 div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
